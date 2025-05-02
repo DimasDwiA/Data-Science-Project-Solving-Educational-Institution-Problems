@@ -104,7 +104,7 @@ Business dashboard yang telah dibuat menggunakan Looker Studio dengan dashboard 
 ```
 python app.py --model random_forest_model.pkl --input data_student.csv
 ```
-4. Atau bisa klik [link ini](https://study-case-dicoding-hmojbpfh6zjbzomrt4pk9a.streamlit.app/) untuk mengakses aplikasi secara real-time dari streamlit 
+4. Atau bisa klik [link ini]([https://study-case-dicoding-hmojbpfh6zjbzomrt4pk9a.streamlit.app/](https://data-science-project-solving-educational-institution-problems.streamlit.app/)) untuk mengakses aplikasi secara real-time dari streamlit 
 
 ## Conclusion:
 Tujuan utama proyek ini adalah membangun model klasifikasi untuk memprediksi dropout, terdaftar dan keberhasilan akademik mahasiswa berdasarkan data demografi dan kinerja awal mereka. Berdasarkan hasil dari beberapa model, seperti Random Forest, Logistic Regression, Decision Tree, dan Neural Networks, kita telah mencapai pemodelan yang cukup baik dengan akurasi yang bervariasi. Hasil terbaik dicapai oleh model  **Random Forest Classifier** dengan akurasi test **75.93%**, yang menunjukkan bahwa model dapat memprediksi dropout dan keberhasilan akademik mahasiswa dengan baik, namun dalam memprediksi terdaftar sedikit kurang bagus. Dengan faktor-faktor yang paling berpengaruh terhadap prediksi dropout, terdaftar dan keberhasilan akademik adalah `Approval_rate (15.37)`, `Curricular_units_2nd_sem_approved (10.95%)`, &`Curricular_units_2nd_sem_grade (7.82%)`. Faktor-faktor ini menunjukkan pentingnya performa akademik di semester awal dalam menentukan keberhasilan, terdaftar ataupun dropout.
